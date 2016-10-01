@@ -21,19 +21,19 @@
             <table>
                 <tr>
                     <td>Hours Worked: </td>
-                    <td><input type="text" name="hourW" value="" size="50"></td>
+                    <td><input type="number" step="any" name="hourW" value="" size="50" required></td>
                 </tr>
                 <tr>
                     <td>Hourly Pay: </td>
-                    <td><input type="text" name="hourP" value="" size="50"></td>
+                    <td><input type="text" name="hourP" value="" size="50" required></td>
                 </tr>
                 <tr>
                     <td>Pre-tax Deduct: </td>
-                    <td><input type="text" name="preTax" value="" size="50"></td>
+                    <td><input type="text" name="preTax" value="" size="50" required></td>
                 </tr>
                 <tr>
                     <td>After-tax Deduct: </td>
-                    <td><input type="text" name="afterTax" value="" size="50"></td>
+                    <td><input type="text" name="afterTax" value="" size="50" required></td>
                 </tr>
                 
             </table> 

@@ -9,5 +9,18 @@ and open the template in the editor.
 */
 
 body{
-    background-color: lightblue;
+    background-color: green;
+}
+input[type ="reset"]{
+    alignment-adjust: middle;
+    
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white 
+}
+
+table, td, th {
+    border: 1px solid black;
 }

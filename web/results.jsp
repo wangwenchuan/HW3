@@ -13,7 +13,10 @@
     </head>
     
     <%
-        String hourW=request.getParameter("hourW");
+        double hourW=Double.parseDouble(request.getParameter("hourW"));
+        double hourP=Double.parseDouble(request.getParameter("hourP"));
+        double preTax=Double.parseDouble(request.getParameter("preTax"));
+        double afterTax=Double.parseDouble(request.getParameter("afterTax"));
         %>
         
     <body>

@@ -9,18 +9,13 @@ and open the template in the editor.
 */
 
 body{
-    background-color: green;
+    background-color: lightblue;
 }
-input[type ="reset"]{
-    alignment-adjust: middle;
-    
+h3{
+ color:white;
+ font-family: "Times New Roman";
 }
-
-table {
-    border-collapse: collapse;
-    background-color: white 
-}
-
-table, td, th {
-    border: 1px solid black;
+td {
+    color:white;
+     text-align: right;
 }
